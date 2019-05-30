@@ -1,16 +1,15 @@
 {% extends 'base.html' %}
 
 
-
 {% block content%}
 <html>
-    <body class="home">
+    <body class="home" style="background:url( {{url_for('static',filename='photos/books.jpg') }})">
     <div class="container-fluid ">
         <div class="row">
             <div class="col-md-12">
-                <h1 class="text-center">Welcome to Pitch an Idea</h1><br>
-                <h2 class="text-center">Home of the most Innovative & Revolutionary Ideas</h2>
-                <h2 class="text-center"> Create an Account to Pitch your Ideas </h2>     
+                <h1 class="text-center" style = "color: rgb(255, 255, 255)">Welcome to Pitch an Idea</h1><br>
+                <h2 class="text-center" style="color: rgb(255, 255, 255)">To Great Ideas</h2>
+                <h2 class="text-center" style = "color:rgb(255, 255, 255)"> Create an Account to Pitch your Ideas </h2>     
             </div>
         </div>
     </div>  
